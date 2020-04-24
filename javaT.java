@@ -3,6 +3,10 @@ import java.util.Scanner;
 import java.lang.Exception;
 
 public class  javaT extends Exception{
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     public static Scanner sc = new Scanner(System.in);
     public static void main(final String[] args) {
         final ArrayList<Integer> list = new ArrayList<>();
